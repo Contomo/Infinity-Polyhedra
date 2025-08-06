@@ -83,7 +83,7 @@ Key parameters can be tuned in `config.h`.
 inside of the models folder there currently is the full step model, and the old joints as a future design refrence.
 
 <p align="center">
-  <img src="media/render.png" alt="render" style="width:100%; max-width:300px;" />
+  <img src="media/render.png" alt="render" style="width:100%; max-height:400px;" />
 </p>
 
 > **Note:** i lost the CAD files of the connector pieces, you shouldnt use them anyways, they are bad. i got them working with a heated insert in the bottom and a single screw, but if i had to do it again i would make sure that the leds lay inside, ie the importance of a contious light strip is greater than the best viewport.
@@ -91,4 +91,5 @@ inside of the models folder there currently is the full step model, and the old 
 ### Technical Notes
 
 The `polyhedron.c` file in the firmware includes functions for basic geometric operations like truncation... A rhombitruncated icosidodecahedron is technically possible to generate but not with the current way we are creating/handling them. For more complex shapes, it would be better to use an external library or mesh program to generate the vertex data and hardcode it. (or help make the poly creation more compliant)
+
 
