@@ -1,0 +1,7 @@
+pyserial
+pygame
+colorama
+matplotlib
+numpy
+PyQt5
+tk
