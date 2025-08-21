@@ -9,7 +9,7 @@ This repository contains the files, notes, and software related to building an i
   <img src="media/infinity1.jpg" alt="abyss" />
 </p>
 
-> [!INFO]
+> [!NOTE]
 > This is a complex project that requires some familiarity with Python and STM32CubeIDE. Unless you are simply replicating the build process with the same components, this will likely not be a "download and run" solution.
 
 ## Table of Contents
@@ -89,6 +89,7 @@ inside of the models folder there currently is the full step model, and the old 
 ### Technical Notes
 
 The `polyhedron.c` file in the firmware includes functions for basic geometric operations like truncation... A rhombitruncated icosidodecahedron is technically possible to generate but not with the current way we are creating/handling them. For more complex shapes, it would be better to use an external library or mesh program to generate the vertex data and hardcode it. (or help make the poly creation more compliant)
+
 
 
 
